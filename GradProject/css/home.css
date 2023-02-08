@@ -1,0 +1,91 @@
+body{
+    font-family: "Helvetica";
+    font-size: 23px;
+    box-sizing: border-box;
+}
+.cont ::selection{
+    background-color: rgb(243, 228, 201);
+    
+}
+
+
+#bord{
+    border-bottom: 1px solid black;
+}
+.transimg{
+    overflow: hidden;
+}
+.transimg img{
+  
+    transition: 6s;
+  
+}
+.transimg:hover img{
+    transform: scale(1.5);
+}
+.landing a{
+    color: black;
+    text-decoration: none;
+}
+.landing .content{
+    font-size: 17px;
+}
+.conta{
+    position: relative;
+    text-align: center;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-size: 30px;
+    transform: translate(-50%, -50%);
+  }
+  
+.ci .circle {
+    width: 40px;
+    height: 40px;
+    color: white;
+    background: brown;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   
+}
+.ci{
+    direction: rtl;
+}
+
+.shop a{
+    color: black;
+    text-decoration: none;  
+}
+.shoes a{
+    color: black;
+    text-decoration: none;
+}
+.blogs h5 a{
+    color: black;
+    text-decoration: none;
+
+}
+.blogs a{
+    color:rgb(43, 167, 167);
+}
+.blogs p{
+    font-size: 14px;
+}
+
+.bogtrans{
+    overflow: hidden;
+}
+.bogtrans img{
+  
+    transition: 6s;
+  
+}
+.bogtrans:hover img{
+    transform: scale(1.5);
+}
